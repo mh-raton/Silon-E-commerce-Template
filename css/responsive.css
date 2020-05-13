@@ -1,0 +1,236 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider-pic img {
+        margin-left: -65px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-pic img {
+        margin-left: -200px;
+    }
+
+    .single-product img {
+        max-width: 100% !important;
+    }
+
+    .discount-title h2 {
+        font-size: 27px !important;
+    }
+
+    .discount-title h1 {
+        font-size: 55px;
+    }
+
+    .lady-img img {
+        max-width: 100%;
+    }
+
+    .btn.mt-60 {
+        margin-top: 25px;
+    }
+
+    .trending-products-area .single-product img {
+        width: 100%;
+    }
+
+    .single-post img {
+        width: 100%;
+    }
+
+    .app-btn {
+        width: 139px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin-top: 12px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .shopping {
+        float: right;
+        margin-top: 13px;
+    }
+
+    .slider-area {
+        min-height: auto !important;
+    }
+
+    .slider-title {
+        margin-top: 100px !important;
+    }
+
+    .slider-pic img {
+        width: 174%;
+        margin-left: -100px;
+    }
+
+    .product-area.pb-110 {
+        padding-bottom: 0;
+    }
+
+    .single-product img {
+        max-width: 100% !important;
+    }
+
+    .discount-title h2 {
+        font-size: 27px;
+    }
+
+    .discount-title h1 {
+        font-size: 55px !important;
+        margin-bottom: 13px !important;
+    }
+
+    .discount-title h2 {
+        font-size: 22px !important;
+    }
+
+    .lady-img img {
+        max-width: 100%;
+    }
+
+    .btn.mt-60 {
+        margin-top: 25px;
+    }
+
+    .trending-products-area .single-product img {
+        width: 100%;
+    }
+
+    .single-post img {
+        width: 100%;
+    }
+
+    .follow-pic a img {
+        width: 100%;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .width-20 {
+        width: 35%;
+    }
+
+    .width-50 {
+        width: 50%;
+    }
+
+    .header-right.f-right {
+        float: none;
+        margin-top: 5px;
+    }
+
+    .logo {
+        margin-top: 12px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .shopping {
+        margin-top: 13px;
+        float: right;
+    }
+
+
+    .slider-area {
+        min-height: auto !important;
+    }
+
+    .slider-title {
+        margin-top: 100px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .slider-pic {
+        display: none;
+    }
+
+    .product-area.pt-140 {
+        padding-top: 60px;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .discount-title h1 {
+        font-size: 58px !important;
+    }
+
+    .discount-title h2 {
+        font-size: 21px !important;
+    }
+
+    .discount-title {
+        padding-top: 60px;
+    }
+
+    .lady-img img {
+        width: 100%;
+        margin-top: 22px;
+    }
+
+    .single-product img {
+        max-width: 100%;
+    }
+
+    .trending-products .single-product img {
+        width: 100%;
+    }
+
+    .single-post img {
+        max-width: 100%;
+    }
+
+    .follow-pic img {
+        width: 100%;
+    }
+
+    .app-btn {
+        width: 150px !important;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .none {
+        display: none;
+    }
+
+    .shopping {
+        float: right;
+        margin-left: 0;
+    }
+
+    .slider-title h1 {
+        padding: 0 83px;
+    }
+
+    .single-product:hover .product-img-overlay {
+        top: 46% !important;
+    }
+
+    .post-header span::before {
+        bottom: 125px !important;
+    }
+
+    .app-btn {
+        width: 138px !important;
+    }
+}
